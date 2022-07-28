@@ -22,3 +22,8 @@ python3 arl_pass.py -f file.txt -p pass.txt
   -h, --help            Show help message and exit
 ```
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/54735907/181437836-173781f4-08bd-42a4-9476-4a252e3b1826.png">
+
+### Tips
+默认5个线程，如果有需要请在94行 and 115行 修改
+
+<img width="800" alt="image" src="https://user-images.githubusercontent.com/54735907/181440389-d98451a9-0bca-45f3-afd5-33922711ea6d.png">
