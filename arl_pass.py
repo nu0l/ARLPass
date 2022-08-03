@@ -125,3 +125,24 @@ if __name__ == '__main__':
     return_code = ''
     arg()
     main()
+    
+    
+    
+    
+    
+    '''
+    def req(url, headers, proxies):
+    try:
+        r = requests.get(url, headers=headers, proxies=proxies, timeout=5, verify=False)
+        return r
+    except requests.exceptions.ConnectTimeout:
+        if 'api.hackertarget.com' not in url:
+            console.log('[red][EROR] 连接 %s 超时' % url)
+        return 'Error'
+    except requests.exceptions.ProxyError:
+        console.log('[red][EROR] 连接代理失败' % url)
+        return 'Error'
+    except Exception as e:
+        console.log('[red][EROR] 访问 %s 发生错误，错误信息： %s ' % (url, repr(e)))
+        return 'Error'
+    '''
